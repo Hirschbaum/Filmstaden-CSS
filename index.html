@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+    <title>Filmstaden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="links"><!--DET KAN FINNAS HUR MÅNGA CLASS SOM HELST-->
+            <li><a href="#top" class="link">Hem</a></li>
+            <li><a href="#middle" class="link">Filmer</a></li>
+            <li><a href="#" class="link">Om oss</a></li>
+            <li><a href="#" class="link">Öppettider</a></li>            
+        </ul>
+
+    </nav> <!--ID = när kopplas html och JS, CSS-->
+
+    <header id="top"> <!--BARA EN ID KAN FINNAS PER ELEMENT!!!!!!!!-->
+        <img src="https://filmz.dk/files/gfx/6/67234-h600xw1024-biograf-popcorn-filmz-1000x586.jpg" alt="en biograf">
+    </header>
+    <main id="middle">
+        <section class="main-content">
+            <article class="information">
+                <h3>Information</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis delectus eveniet itaque deserunt et enim at error placeat numquam, eligendi nihil vel exercitationem hic consequuntur culpa? Saepe, culpa aliquam.</p>
+            </article>
+            <article class="show-times">
+                <h3>Visningstider</h3>
+                <table>
+                    <tr>
+                        <th>Film</th> <!--TH = table head (oszlop), TR = table row-->
+                        <th>Tid</th>
+                        <th>Pris</th>
+                    </tr>
+                    <tr>
+                        <td>Shrek</td> <!--table data-->
+                        <td>14:00</td>
+                        <td>50kr</td>
+                    </tr>
+                    <tr>
+                        <td>James Bond</td>
+                        <td>15:40</td>
+                        <td>120kr</td>
+                    </tr>
+                    <tr>
+                        <td>Csinibaba</td>
+                        <td>17:20</td>
+                        <td>100kr</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <!--<aside class="sidebar">
+            <h4>Här visas reklam!</h4>
+        </aside>-->
+    </main>
+    <footer id="bottom">
+        <p>&copy; 2019 Ada Timko</p>
+    </footer>
+</body>
+
+</html>
